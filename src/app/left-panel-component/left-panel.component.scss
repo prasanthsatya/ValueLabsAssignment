@@ -1,0 +1,91 @@
+.user_info{
+	position: relative;
+    width: 100%;
+    height: 45pt;
+    background-color: blue;
+    color: white;
+
+    	h3 h5{
+			dispaly: inline;
+		}
+
+		span{
+			position: absolute;
+		    padding: 6% 60%;
+		}
+
+		.user_img{
+			margin: 4%;
+		    width: 14%;
+		    float: left;
+		}
+}
+
+.user_details{
+	position: relative;
+	width: 100%;
+	height: 50%;
+
+		button{
+			width: 100%;
+			text-align: left;
+		}
+
+		ul {
+		    list-style: none;
+		    padding: 0;
+		}
+
+		li {
+		  margin: .5em 0;
+		 }
+
+		.inner {
+		   padding-left: 1em;
+		   overflow: hidden;
+		   display: none;
+		 }
+
+		 a {
+		    width: 100%;
+		    display: block;
+		    background: white;
+		    color: black;
+		    border-radius: 0.15em;
+		    text-decoration: none !important;
+		    transition: background .3s ease;
+		    border-bottom: 1px solid #dee1e8;
+    		padding: 4% 0;
+		}
+
+		.caret {
+		    display: inline-block;
+		    width: 5%;
+		    height: 5%;
+		}
+}
+
+.ui-widget-content{
+  border: 0;
+  background: white;
+  color: black;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: #000000;
+}
+.ui-state-default {
+  border-bottom: 1px solid #666666;
+  background: white;
+  color: #ffffff;
+}
+.ui-scrollpanel-bar-x{
+  display: none;
+}
+.ui-scrollpanel-bar-y{
+  display: block;
+}
+.ui-scrollpanel-content {
+  height: 100%;
+  width: 100%;
+}
